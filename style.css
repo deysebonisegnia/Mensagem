@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif; 
+  }
+  
+  #container {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 400px;
+    margin-inline: auto;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    opacity: 0.9;
+    
+  }
+ 
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+
+
+  
+  button {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: filter .2s;
+  }
+  
+  /* pseudo-class :hover */
+  button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  
+  }
+  
+  
